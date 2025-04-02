@@ -2,7 +2,7 @@
 
 This repository contains an R-based analysis pipeline designed to perform **functional bioinformatics analysis** on transcriptomic data, with a specific focus on comparing gene set collections. Using a dataset of fibroblasts derived from vEDS patients (GSE239914), the pipeline identifies **differentially expressed genes (DEGs)**, conducts **gene set enrichment analysis**, and evaluates how different collections influence biological interpretation.
 
-In addition to the standard enrichment workflow, this pipeline introduces a systematic **comparison of five widely used gene set databases**—GO:BP, KEGG, Reactome, MSigDB (Hallmark), and WikiPathways—based on pathway count, vEDS relevance, and clustering interpretability. This comparison helps highlight the impact of database selection on biological insights, particularly in rare disease research.
+In addition to the standard enrichment workflow, this pipeline introduces a systematic **comparison of five widely used gene set databases**—GO(BP), KEGG, Reactome, MSigDB (Hallmark), and WikiPathways—based on pathway count, vEDS relevance, and clustering interpretability. This comparison helps highlight the impact of database selection on biological insights, particularly in rare disease research.
 
 # Overview
 
@@ -29,8 +29,8 @@ Originally developed and maintained by [Hendrik Dupont](https://github.com/Hendr
 # Purpose
 
 This project was carried out as part of a research assignment to answer the question:  
-**"How do different gene set collections affect biological interpretation, and which is most suitable for studying vEDS?"**
+**"How do different gene set collections (KEGG, GO, WikiPathways, MSigDB, Reactome) affect biological interpretation and which is most suitable for studying vEDS?"**
 
 # Keywords
 
-vEDS, gene set enrichment, transcriptomics, pathway analysis, extracellular matrix
+vEDS, gene set collections, transcriptomics, DEGs, ECM
