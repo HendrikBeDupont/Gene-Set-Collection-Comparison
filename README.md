@@ -13,7 +13,6 @@ This project includes the following key steps:
 ✔ **Over-representation analysis (ORA)** across multiple gene set collections  
 ✔ **Pathway Relevance Scoring** using a custom vEDS-related keyword screen  
 ✔ **Functional Clustering Analysis** to evaluate redundancy and interpretability  
-✔ **Protein-Protein Interaction (PPI) Network Analysis** using Cytoscape + stringApp  
 ✔ **Comparative Assessment** of biological coverage and clarity of enrichment output  
 
 All analyses are performed in **R**, and integration with **Cytoscape** supports PPI visualisation and enrichment mapping.
